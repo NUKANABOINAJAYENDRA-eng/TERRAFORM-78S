@@ -9,7 +9,7 @@ resource "aws_security_group" "allow-alll" {
     description = "allowing all inbound and outbound traffic"
 
 
-#--> this called as block in terraform
+#--> this called as block in terraform 
     ingress {
         from_port               = 0
         to_port                 = 0
